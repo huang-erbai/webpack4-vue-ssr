@@ -2,7 +2,7 @@
  * @Author: 黄 楠
  * @Date: 2019-04-30 13:59:45
  * @Last Modified by: 黄 楠
- * @Last Modified time: 2019-05-09 10:25:37
+ * @Last Modified time: 2019-05-09 11:34:08
  * @Description:
  */
 const path = require("path");
@@ -104,7 +104,7 @@ const baseConfig = {
             // Options similar to the same options in webpackOptions.output
             // both options are optional
             filename: "[name].[chunkhash].css",
-            chunkFilename: "[name].[chunkhash].css",
+            chunkFilename: "[name].css",
             orderWarning: true, // Disable to remove warnings about conflicting order between imports
         }), ] : [new FriendlyErrorsPlugin()]
     ],
